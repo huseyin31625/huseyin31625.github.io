@@ -5,6 +5,7 @@ html {
 a[role=button] {
   border-color: red;
   color: white;
-  background-color: #AAAAAAAA;
-  font-size: 16px;
+  padding: 10px 16px;
+  background-color: #AA0000AA;
+  font-size: 18px;
 }
