@@ -2,3 +2,9 @@ html {
   font-family: sans-serif;
   color-scheme: light dark;
 }
+a[role=button] {
+  border-color: red;
+  color: white;
+  background-color: #AAAAAAAA;
+  font-size: 16px;
+}
