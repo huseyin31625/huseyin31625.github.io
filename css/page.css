@@ -9,3 +9,7 @@ a[role=button] {
   background-color: #AA0000AA;
   font-size: 18px;
 }
+div.header {
+  background-color: white;
+  color: black;
+}
