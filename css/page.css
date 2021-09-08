@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color-scheme: light dark;
 }
 a[role=button] {
@@ -13,3 +13,4 @@ div.header {
   background-color: white;
   color: black;
 }
+@import '../font.css';
