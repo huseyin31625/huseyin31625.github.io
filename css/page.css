@@ -1,3 +1,4 @@
+@import 'https://huseyin31625.github.io/font.css';
 html {
   font-family: 'Montserrat', sans-serif;
   color-scheme: light dark;
@@ -13,4 +14,3 @@ div.header {
   background-color: white;
   color: black;
 }
-@import 'https://huseyin31625.github.io/font.css';
