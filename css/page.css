@@ -22,3 +22,8 @@ div.header {
 .password {
   -webkit-text-security: disc !important;
 }
+@media-phone {
+  html {
+    color-scheme: dark;
+  }
+}
