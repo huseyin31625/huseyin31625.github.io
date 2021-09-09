@@ -4,4 +4,5 @@ document.getElementById("create").addEventListener("click", function() {
   element.innerHTML = document.getElementById("password").value;
   document.getElementById("passwds").appendChild(element);
   sessionStorage.setItem("passwords", element.innerHTML);
+  sessionStorage.save();
 });
