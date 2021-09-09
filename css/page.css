@@ -22,13 +22,3 @@ div.header {
 .password {
   -webkit-text-security: disc !important;
 }
-@media-phone {
-  html {
-    font-style: italic;
-  }
-}
-@media-tablet {
-  html {
-    font-style: italic;
-  }
-}
