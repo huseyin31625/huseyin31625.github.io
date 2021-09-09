@@ -14,7 +14,7 @@ function GetURLParameter(sParam)
 // Get saved data from sessionStorage
 document.getElementById("writecomment").addEventListener("click", function() {
   if (GetURLParameter("id") == "g5Jkl") {// Save data to sessionStorage
-    sessionStorage.setItem('commentg5Jkl', document.getElementById("cmlist").value);
+    sessionStorage.setItem('commentg5Jkl', document.getElementById("cmlist").innerHTML);
     let data = sessionStorage.getItem('commentg5Jkl');
   }
 });
