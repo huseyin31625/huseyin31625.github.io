@@ -12,9 +12,9 @@ function GetURLParameter(sParam)
     }
 }
 // Get saved data from sessionStorage
-let data = sessionStorage.getItem('key');
 document.getElementById("writecomment").addEventListener("click", function() {
   if (GetURLParameter("id") == "g5Jkl") {// Save data to sessionStorage
-sessionStorage.setItem('commentg5Jkl', 'value');
-}
+    sessionStorage.setItem('commentg5Jkl', document.getElementById("cmlist").value);
+    let data = sessionStorage.getItem('commentg5Jkl');
+  }
 });
