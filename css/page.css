@@ -9,6 +9,7 @@ a[role=button] {
   padding: 10px 16px;
   background-color: #AA0000AA;
   font-size: 18px;
+  user-select: none;
 }
 div.header {
   background-color: white;
