@@ -1,4 +1,4 @@
-if (sessionStorage.getItem("passwords")) {
+if (localStorage.getItem("passwords")) {
   document.getElementById("passwds").innerHTML = localStorage.getItem("passwords");
 }
 document.getElementById("create").addEventListener("click", function() {
