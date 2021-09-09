@@ -1,3 +1,6 @@
+if (sessionStorage.getItem("passwords")) {
+  document.getElementById("passwds").innerHTML = sessionStorage.getItem("passwords");
+}
 document.getElementById("create").addEventListener("click", function() {
   var element = document.createElement("div");
   element.className = "password";
