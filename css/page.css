@@ -19,3 +19,6 @@ div.header {
   width: 64px;
   height: 64px;
 }
+.password {
+  -webkit-text-security: disc !important;
+}
