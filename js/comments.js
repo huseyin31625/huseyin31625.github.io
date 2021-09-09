@@ -21,6 +21,7 @@ document.getElementById("cmt").addEventListener("click", function() {
       var element = document.createElement("div");
       element.className = "comment";
       element.innerHTML = "<div class=\"comment-title\">" + document.getElementById("username").value + "(<span class=\"password\">" + document.getElementById("password").value + "</span>)" + "</div>" + "<button id=\"delete\">Delete</button>" + "<div class=\"cntnt\">" + document.getElementById("content").value + "</div>";
+      document.getElementById("cmlist").appendChild(element);
     sessionStorage.setItem('commentg5Jkl', document.getElementById("cmlist").innerHTML);
   }
 });
