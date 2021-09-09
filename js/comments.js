@@ -16,11 +16,11 @@ function GetURLParameter(sParam)
     document.getElementById("cmlist").innerHTML = data;
   }
 // Get saved data from sessionStorage
-document.getElementById("writecomment").addEventListener("click", function() {
+document.getElementById("cmt").addEventListener("click", function() {
   if (GetURLParameter("id") == "g5Jkl") {// Save data to sessionStorage
       var element = document.createElement("div");
       element.className = "comment";
-      element.innerHTML = "<div class=\"comment-title\">" + document.getElementById("username").value + "</div>";
+      element.innerHTML = "<div class=\"comment-title\">" + document.getElementById("username").value + "(<span class=\"password\">" + document.getElementById("password").value + "</span>)" + "</div>" + "<button id=\"delete\">Delete</button>" + "<div class=\"cntnt\">" + document.getElementById("content").value + "</div>";
     sessionStorage.setItem('commentg5Jkl', document.getElementById("cmlist").innerHTML);
   }
 });
