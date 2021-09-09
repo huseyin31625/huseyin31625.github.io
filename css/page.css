@@ -24,6 +24,11 @@ div.header {
 }
 @media-phone {
   html {
-    color-scheme: dark;
+    font-style: italic;
+  }
+}
+@media-tablet {
+  html {
+    font-style: italic;
   }
 }
