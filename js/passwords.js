@@ -15,7 +15,7 @@ document.getElementById("show").addEventListener("click", function() {
     document.getElementById("password").type = "password";
   }
   else {
-    shown == true;
+    shown = true;
     document.getElementById("password").type = "text";
   }
 });
