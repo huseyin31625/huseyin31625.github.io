@@ -6,6 +6,8 @@ document.getElementById("create").addEventListener("click", function() {
   element.className = "password";
   element.innerHTML = document.getElementById("password").value;
   document.getElementById("passwds").appendChild(element);
+});
+window.addEventListener("unload", function() {
   localStorage.setItem("passwords", document.getElementById("passwds").innerHTML);
 });
 var shown = false;
