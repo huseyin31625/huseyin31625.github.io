@@ -33,6 +33,6 @@ div.header {
 .itembtn {
   font-size: 18px;
   font-family: inherit;
-  height: 100%;
+  height: 32;
   aspect-ratio: 1 / 1;
 }
