@@ -43,6 +43,7 @@ loader {
   border: 3px solid #AAAAAAAA;
   border-top: 3px solid #AAAAAA;
   border-radius: 50%;
+  animation: rotate 1s linear infinite;
 }
 .loading {
   width: 100%;
@@ -54,4 +55,9 @@ loader {
   position: fixed;
   top: 0;
   left: 0;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
 }
