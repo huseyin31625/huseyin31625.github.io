@@ -48,7 +48,7 @@ loader {
 .loading {
   width: 100%;
   height: 100%;
-  background-color: #FFFFFF;
+  background-color: #FFFFFFDD;
   display: flex;
   justify-content: center;
   align-items: center;
