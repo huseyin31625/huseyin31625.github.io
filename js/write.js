@@ -3,6 +3,6 @@ document.getElementById("bold").addEventListener("click", function() {
   var bold = "<b>" + selection + "</b>";
   document.getElementById("write-here").value = document.getElementById("write-here").value.replace(selection, bold);
 });
-document.getElementById("write-here").addEventListener("change", function() {
+setInterval(function() {
   document.getElementById("preview").innerHTML = document.getElementById("write-here").value;
 });
