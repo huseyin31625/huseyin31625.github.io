@@ -1,3 +1,3 @@
-setTimeout(function() {
+document.addEventListener('DOMContentLoaded', function() {
   document.querySelector(".loading").remove();
-}, 1000);
+}, false);
