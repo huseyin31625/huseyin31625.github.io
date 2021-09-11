@@ -11,6 +11,9 @@ a[role=button] {
   font-size: 18px;
   user-select: none;
 }
+a[role=button]:hover {
+  background-color: red;
+}
 div.header {
   background-color: white;
   color: black;
