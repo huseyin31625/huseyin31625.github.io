@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <script src="js/cmd.js" defer=""></script>
-    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/page.css" />
   </head>
   <body>
     <button>mhjkj</button>
