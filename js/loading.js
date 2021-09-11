@@ -1,3 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('load', function() {
   document.querySelector(".loading").remove();
 }, false);
